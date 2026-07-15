@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "general": {
+    "project_title": "Progetto dimostrativo",
+    "project_code": "QUBI-DEMO-01",
+    "lead_org": "Ente dimostrativo",
+    "project_start": "2025-07-01",
+    "project_end": "2027-05-31",
+    "contact_phone": "0200000000",
+    "contact_email": "referente@example.org"
+  },
+  "contribution": {"p1": 20, "p2": 45, "p3": 75, "p4": 100},
+  "activities": [
+    {
+      "category": "Scuola",
+      "activity": "Doposcuola",
+      "start_date": "2025-09-15",
+      "p1_status": "In corso",
+      "p2_status": "In corso",
+      "p3_status": "In corso",
+      "p4_status": "Conclusa",
+      "end_date": "2027-05-15"
+    }
+  ],
+  "expenses": [
+    {
+      "activity": "Doposcuola",
+      "cost_parameter": "Max 27 €/ora",
+      "p1_quantity": 100,
+      "p1_amount": 2700,
+      "p2_quantity": 220,
+      "p2_amount": 5940,
+      "p3_quantity": 350,
+      "p3_amount": 9450,
+      "p4_quantity": 430,
+      "p4_amount": 11610
+    }
+  ],
+  "beneficiaries": [
+    {
+      "activity": "Doposcuola",
+      "beneficiary_type": "Minori",
+      "age_range": "6-13 anni",
+      "target": 30,
+      "p1_reached": 12,
+      "p1_minors": 12,
+      "p1_relation": "Misti",
+      "p2_reached": 20,
+      "p2_minors": 20,
+      "p2_relation": "Misti",
+      "p3_reached": 27,
+      "p3_minors": 27,
+      "p3_relation": "Misti",
+      "p4_reached": 31,
+      "p4_minors": 31,
+      "p4_relation": "Misti"
+    }
+  ]
+}
